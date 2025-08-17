@@ -1,6 +1,6 @@
 # Contexto 1A.- Control de Usuarios
 
-## Propósito
+### Propósito
 
 Gestionar los usuarios registrados en el sistema, editar sus roles, privilegios y responsabilidades.
 
