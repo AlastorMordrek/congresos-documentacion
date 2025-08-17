@@ -1,4 +1,4 @@
-# Subdominio 3 — BoletosGestión de Conferencias
+# Subdominio 3 — Boletos
 **Propósito:** Emitir, gestionar y cancelar boletos que representan la inscripción de un alumno a un congreso.
 
 **Incluye:**
