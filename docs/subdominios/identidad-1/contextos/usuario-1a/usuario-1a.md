@@ -4,12 +4,14 @@
 
 Gestionar los usuarios registrados en el sistema, editar sus roles, privilegios y responsabilidades.
 
+
 ## Alcance
 
 - Registro interno de usuarios (Organizador, Staff, Alumno).
 - Perfiles de usuarios: informacion personal y de contacto, estudiantil, etc...
 - Roles (Administrador, Organizador, Staff, Alumno, Invitado).
 - Privilegios y responsabilidades.
+
 
 ## Actores y Permisos
 
@@ -24,6 +26,7 @@ Gestionar los usuarios registrados en el sistema, editar sus roles, privilegios 
   - Crear usuarios nuevos: Staff, Alumno.
   - Bloquear/desbloquear usuarios.
   - Editar privilegios y responsabilidades de usuarios: Staff.
+
 
 ## Lenguaje ubicuo
 
@@ -47,6 +50,7 @@ En que carrera esta estudiando un Alumno:
 
 - Autorizado:
 En Staff: determina si puede realizar acciones de Staff en general.
+
 
 ## Agregados
 
@@ -78,7 +82,7 @@ En Staff: determina si puede realizar acciones de Staff en general.
   - staff_inscripciones_p
 
 
-Politicas
+## Politicas
 
 - POL-1A-01:
 Algunas funciones requieren que el Usuario EJECUTOR no este bloqueado.
@@ -110,7 +114,7 @@ Todo Usuario debe tener al menos un nombre y al menos uno de sus apellidos.
 Solo Administrador puede eliminar Usuarios. Puede eliminar a cualquier Usuario.
 
 
-Comandos y Eventos
+## Comandos y Eventos
 
 - Registrar
   - Eventos   : Registrado
@@ -149,7 +153,7 @@ Comandos y Eventos
   - Politicas : POL-1A-07
 
 
-Operaciones
+### Operaciones
 
 - crear
   - Parametros : datos
@@ -188,7 +192,7 @@ Operaciones
   - Acceso     : Administrador
 
 
-Consultas
+### Consultas
 
 - consultar_por_rol
   - Parametros : rol
@@ -203,21 +207,21 @@ Consultas
     - Alumno consulta su propio Usuario
 
 
-Integraciones
+## Integraciones
 
-Downstream
+###Downstream
 - Bloqueado            (Usuario)
 - Eliminado            (Usuario)
 - OrganizadorEliminado (Usuario)
 - AlumnoEliminado      (Usuario)
 
 
-Requerimientos Tecnicos
+## Requerimientos Tecnicos
 
 - Rate-limiting de peticiones por IP para bloqueo de ataques por fuerza bruta.
 - Transito de informacion encriptado incondicionalmente.
 
 
-KPIs
+## KPIs
 
 - Conteo total de usuarios y por rol.
