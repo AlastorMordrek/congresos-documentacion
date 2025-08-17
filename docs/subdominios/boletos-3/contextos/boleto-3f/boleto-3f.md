@@ -41,9 +41,6 @@ Un Boleto que ya no puede ser usado porque fue dado de baja por el Alumno o un S
 - Restaurado:
 Boleto que fue reactivado y ya no esta Cancelado, por lo que puede usarse.
 
-- Media de Evento:
-Fotos o videos que fueron tomados en el evento cuando sucedio.
-
 
 ## Agregados
 
