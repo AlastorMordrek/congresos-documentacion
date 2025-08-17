@@ -63,5 +63,41 @@ Fotos o videos que que proveen ilustracion adicional al Congreso.
 - Media de Evento:
 Fotos o videos que fueron tomados en el evento cuando sucedio.
 
+- Conferencia:
+Un evento de tipo Clase, Taller, Conferencia, que sucedera en cierto Congreso, en cierta fecha y ubicacion.
 
+- Conferencia: Cupo:
+Espacio disponible en la sala (lugar) donde se llevara a cabo la Conferencia. Este no es un limite duro, el Staff puede permitir entrar mas gente si lo consideran prudente.
 
+- Conferencista:
+Persona que estara a cargo de exponer una conferencia.
+
+- Semblanza:
+Datos del perfil de el Conferencista, su CV, certificaciones, etc...
+
+- Conferencia: Publicada:
+Conferencia que oficialmente se llevara a cabo, su informacion esta lista para presentarse al publico general.
+
+- Conferencia: Retractada:
+Conferencia que ya no se considera lista y ya no esta publicada para el publico general.
+
+- Conferencia: Cancelada:
+Una Conferencia que ya no se llevara a cabo.
+
+- Conferencia: Restaurada:
+Conferencia que ya no esta Cancelada, se ha vuelto a poner en marcha.
+
+- Boleto:
+Registro que consta la Inscripción de un Alumno en un Congreso y el cual le reserva un lugar del cupo definido para dicho Congreso.
+
+- Inscripcion:
+Proceso mediante el cual un Alumno se reserva su lugar en un Congreso y genera su Boleto.
+
+- Boleto: Cancelado:
+Un Boleto que ya no puede ser usado porque fue dado de baja por el Alumno o un Staff o el Organizador del Congreso.
+
+- Boleto: Restaurado:
+Boleto que fue reactivado y ya no esta Cancelado, por lo que puede usarse.
+
+- Asistencia:
+Registro que consta la entrada de un Alumno a un Congreso a travez de su Boleto.
