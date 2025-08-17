@@ -87,3 +87,13 @@ El sistema proveera a los participantes las siguientes caracteristicas segun el 
  - Consultar sus boletos.
  - Registrar su asistencia a una conferencia.
  - Consultar sus asistencias.
+
+
+### Como leer esta documentacion.
+
+El sistema esta diseñado usando una mezcla de metodologias, encabezada por Diseño Dirigido por Dominios (DDD).
+La estructura de este repositorio de documentacion refleja enfoque y planteamiento basado en Dominios.
+
+El siguiente archivo que deberias leer para comprender el Dominio Principal del sistema es: [Dominio](docs/dominio/dominio.md)
+
+La estructura del repositorio sera la siguiente.
