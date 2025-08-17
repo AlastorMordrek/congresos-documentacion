@@ -63,21 +63,40 @@ Fotos o videos que fueron tomados en el evento cuando sucedio.
 
 - Alumno
   - Contexto: Control de usuarios.
-  - Datos: id, no_control, nombre, bloqueado_p,
+  - Datos:
+    - id
+    - no_control
+    - nombre
+    - bloqueado_p
 
 - Organizador
   - Contexto: Control de usuarios.
-  - Datos: id,
+  - Datos:
+    - id
 
 - Staff
   - Contexto: Control de usuarios.
-  - Datos: id, inscribe_alumnos_p, cancela_boletos_p, consulta_boletos_p,
+  - Datos:
+    - id
+    - inscribe_alumnos_p
+    - cancela_boletos_p
+    - consulta_boletos_p
 
 - Congreso
   - Contexto: Congreso.
-  - Datos: id, organizador_id, nombre, fecha_inicio, fecha_fin, direccion,
-  publicado_p, cancelado_p, inscripciones_fecha_inicio, inscripciones_fecha_fin,
-  cupo, inscritos.
+  - Datos:
+    - id
+    - organizador_id
+    - nombre
+    - fecha_inicio
+    - fecha_fin
+    - direccion
+    - publicado_p
+    - cancelado_p
+    - inscripciones_fecha_inicio
+    - inscripciones_fecha_fin
+    - cupo
+    - inscritos
 
 
 ## Proyecciones
