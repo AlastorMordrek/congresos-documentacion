@@ -73,6 +73,7 @@ En Staff: determina si puede realizar acciones de Staff en general.
   - semestre
   - grupo
   - externo_p
+  - institucion_externa_nombre
   - curp
   - email_institucional
   - staff_autorizado_p
