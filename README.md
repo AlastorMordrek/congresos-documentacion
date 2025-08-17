@@ -2,7 +2,9 @@
 Este repositorio alberga toda la documentacion para el sistema de manejo de Congresos y Conferencias.
 Aqui podras encontrar documentacion, especificaciones, requerimientos, diagramas y modelos, etc... relevantes para entender y contribuir al proyecto.
 
-<img src="imagenes/tecnm-logo.jpg" alt="Logo del Tecnologico Nacional de Mexico" width="40%" height="40%" align="center" />
+<div align="center">
+  <img src="imagenes/tecnm-logo.jpg" alt="Logo del Tecnologico Nacional de Mexico" width="40%" height="40%" />
+</div>
 
 # Introduccion
 
