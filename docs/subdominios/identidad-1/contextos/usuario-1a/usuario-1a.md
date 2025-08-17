@@ -32,7 +32,7 @@ Persona registrada que tiene asignado un rol y privilegios/responsabilidades.
 
 - Rol:
 Propiedad de un Usuario que le asigna privilegios y responsabilidades.
-  1. Administrador
+  - 1 Administrador
   - 2. Organizador
   - 3. Staff
   - 4. Alumno
