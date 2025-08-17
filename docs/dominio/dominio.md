@@ -1,6 +1,6 @@
 # Dominios y Subdominios — Gestión de Conferencias
 
-## Dominio principal
+### Dominio principal
 **Gestión de Conferencias**  
 Macro-espacio del negocio que cubre la planificación, promoción, inscripción, validación y seguimiento de congresos y conferencias académicas o profesionales.  
 Incluye la administración de usuarios con distintos roles, la gestión de eventos y actividades asociadas, así como el control de acceso y asistencia.
