@@ -46,7 +46,7 @@ Tambien se identifican las siguientes areas de interes:
 
 El sistema proveera a los participantes las siguientes caracteristicas segun el area de interes.
 
-### Para la administracion.
+#### Para la administracion.
  - Manejar congresos:
  - Registrar, editar, autorizar, etc…
  - Curar la lista publica de congresos proximos.
@@ -56,33 +56,34 @@ El sistema proveera a los participantes las siguientes caracteristicas segun el 
  - Asignar organizadores a congresos.
  - Manejar alumnos:
    - Registrar, editar, autorizar, etc…
-Para los planeadores.
-Manejo de sus congresos asignados.
-Manejo de conferencias:
-Registro, edicion, asignar expositor, etc…
-Manejo de staff:
-Registro, edicion, autorizacion, asignacion de responsabilidades, etc…
-Manejo de boletos:
-Registrar, editar, autorizar, etc…
-Manejo de asistencias a conferencias:
-Registrar asistencia (validar boleto).
-Consultar audiencia.
 
-Para el staff.
-Editar su perfil.
-Seleccionar responsabilidades deseadas (o dicho de otra forma listar sus potenciales habilidades y conpetencias).
-Consultar congresos.
-Ofrecerse como voluntario a un congreso.
-Consultar sus congresos asignados y autorizados.
-Comprobar acceso al congreso.
-Validar boletos.
+#### Para los planeadores.
+ - Manejo de sus congresos asignados.
+ - Manejo de conferencias:
+ - Registro, edicion, asignar expositor, etc…
+ - Manejo de staff:
+   - Registro, edicion, autorizacion, asignacion de responsabilidades, etc…
+ - Manejo de boletos:
+   - Registrar, editar, autorizar, etc…
+ - Manejo de asistencias a conferencias:
+ - Registrar asistencia (validar boleto).
+ - Consultar audiencia.
 
-Para los alumnos.
-Registrarse.
-Editar su perfil.
-Consultar los congresos proximos.
-Consultar conferencias.
-Inscribirse a congreso.
-Consultar sus boletos.
-Registrar su asistencia a una conferencia.
-Consultar sus asistencias.
+#### Para el staff.
+ - Editar su perfil.
+ - Seleccionar responsabilidades deseadas (o dicho de otra forma listar sus potenciales habilidades y conpetencias).
+ - Consultar congresos.
+ - Ofrecerse como voluntario a un congreso.
+ - Consultar sus congresos asignados y autorizados.
+ - Comprobar acceso al congreso.
+ - Validar boletos.
+
+#### Para los alumnos.
+ - Registrarse.
+ - Editar su perfil.
+ - Consultar los congresos proximos.
+ - Consultar conferencias.
+ - Inscribirse a congreso.
+ - Consultar sus boletos.
+ - Registrar su asistencia a una conferencia.
+ - Consultar sus asistencias.
