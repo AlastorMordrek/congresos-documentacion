@@ -74,7 +74,7 @@ Registro que consta la entrada de un Alumno a un Congreso a travez de su Boleto.
 
 - Boleto
   - Contexto: Boleto.
-  - Datos: id, folio, cancelado_p.
+  - Datos: id, folio, folio_largo, cancelado_p.
 
 
 ## Proyecciones
