@@ -136,5 +136,3 @@ Cada subdominio tiene:
   - Sus relaciones con otros contextos (**upstream/downstream**).  
 
 El siguiente archivo que deberias leer para comprender el Dominio Principal del sistema es: [Dominio](docs/dominio/dominio.md)
-
-La estructura del repositorio sera la siguiente.
