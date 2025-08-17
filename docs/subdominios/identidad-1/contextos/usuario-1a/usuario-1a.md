@@ -209,7 +209,8 @@ Solo Administrador puede eliminar Usuarios. Puede eliminar a cualquier Usuario.
 
 ## Integraciones
 
-###Downstream
+### Downstream
+
 - Bloqueado            (Usuario)
 - Eliminado            (Usuario)
 - OrganizadorEliminado (Usuario)
