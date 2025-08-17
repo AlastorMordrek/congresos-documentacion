@@ -110,10 +110,6 @@ Usuarios al recuperar su cuenta, pierden todas sus Sesiones, excepto la que se c
   - Parametros : id_usuario
   - Retorna    : [Sesion]
   - Produce    : [Salida]
-  - Acceso     :
-    - Administrador: elimina/bloquea a Usuario, lo cual purga sus Sesiones.
-    - Organizador: bloquea a Staff/Alumno, lo cual purga sus Sesiones.
-    - Staff (con privilegio): bloquea a Alumno, lo cual purga sus Sesiones.
 
 
 ## Integraciones
