@@ -66,34 +66,34 @@ Fotos o videos que fueron tomados en el evento cuando sucedio.
 ## Agregados
 
 - Congreso:
-  id
-  organizador_id
-  resumen
-  descripcion
-  fecha_inicio
-  fecha_fin
-  direccion
-  publicado_p
-  cancelado_p
-  inscripciones_fecha_inicio
-  inscripciones_fecha_fin
-  cupo
-  inscritos
-  asistencias
-  staff_cantidad
-  staff_requerimientos
-  media_1
-  media_2
-  media_3
-  media_4
-  media_5
-  media_6
-  media_evt_1
-  media_evt_2
-  media_evt_3
-  media_evt_4
-  media_evt_5
-  media_evt_6
+  - id
+  - organizador_id
+  - resumen
+  - descripcion
+  - fecha_inicio
+  - fecha_fin
+  - direccion
+  - publicado_p
+  - cancelado_p
+  - inscripciones_fecha_inicio
+  - inscripciones_fecha_fin
+  - cupo
+  - inscritos
+  - asistencias
+  - staff_cantidad
+  - staff_requerimientos
+  - media_1
+  - media_2
+  - media_3
+  - media_4
+  - media_5
+  - media_6
+  - media_evt_1
+  - media_evt_2
+  - media_evt_3
+  - media_evt_4
+  - media_evt_5
+  - media_evt_6
 
 
 ## Politicas
