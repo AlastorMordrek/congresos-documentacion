@@ -1,11 +1,11 @@
-2D.- Eventos: Congreso
+# Contexto 2D.- Congreso
 
-Propósito
+## Propósito
 
 Permitir a los Organizadores planear y gestionar eventos de Congresos.
 
 
-Alcance
+## Alcance
 
 - Registro de Congresos.
 - Publicacion de Congresos.
@@ -15,26 +15,25 @@ Alcance
 - Estadisticas de asistencias.
 
 
-Actores y Permisos
+## Actores y Permisos
 
 - Invitado:
-Consultar los Congresos publicados proximos.
+  - Consultar los Congresos publicados proximos.
 
 - Organizador:
-Gestionar sus Congresos.
+  - Gestionar sus Congresos.
 
 - Administrador:
-Reasignar Organizadores a Congresos.
+  - Reasignar Organizadores a Congresos.
 
 
-Lenguaje ubicuo
+## Lenguaje ubicuo
 
 - Congreso:
 Evento que sucedera en cierto lugar y en el que se expondran talleres, Conferencias, etc...
 
 - Cupo:
-Cuantas personas podran asistir a un Congreso.
-Este limita el numero maximo de Alumnos que pueden inscribirse a un Congreso por el portal designado.
+Cuantas personas podran asistir a un Congreso. Este limita el numero maximo de Alumnos que pueden inscribirse a un Congreso por el portal designado.
 
 - Periodo de inscripciones:
 Rango de fechas dentro de las cuales estara permitiro para que los Alumnos se inscriban a un Congreso y generen sus Boletos.
@@ -64,25 +63,40 @@ Fotos o videos que que proveen ilustracion adicional al Congreso.
 Fotos o videos que fueron tomados en el evento cuando sucedio.
 
 
-Agregados
+## Agregados
 
 - Congreso:
-  id, organizador_id,
-  resumen, descripcion,
-  fecha_inicio, fecha_fin,
-  direccion,
-  publicado_p, cancelado_p,
+  id
+  organizador_id
+  resumen
+  descripcion
+  fecha_inicio
+  fecha_fin
+  direccion
+  publicado_p
+  cancelado_p
+  inscripciones_fecha_inicio
+  inscripciones_fecha_fin
+  cupo
+  inscritos
+  asistencias
+  staff_cantidad
+  staff_requerimientos
+  media_1
+  media_2
+  media_3
+  media_4
+  media_5
+  media_6
+  media_evt_1
+  media_evt_2
+  media_evt_3
+  media_evt_4
+  media_evt_5
+  media_evt_6
 
-  inscripciones_fecha_inicio, inscripciones_fecha_fin,
-  cupo, inscritos, asistencias,
 
-  staff_cantidad, staff_requerimientos,
-
-  media_1, media_2, media_3, media_4, media_5, media_6,
-  media_evt_1, media_evt_2, media_evt_3, media_evt_4, media_evt_5, media_evt_6
-
-
-Politicas
+## Politicas
 
 - POL-2D-01:
 Solo Organizadores pueden crear Congresos, y estos son asignados al Congreso que crearon.
@@ -94,7 +108,7 @@ Solo Organizadores pueden editar/eliminar Congresos y solo aquellos a los que es
 Administradores pueden reasignar un Congreso a otro Organizador.
 
 
-Comandos y Eventos
+## Comandos y Eventos
 
 - Crear
   - Eventos   : Creado
@@ -145,7 +159,7 @@ Comandos y Eventos
   - Politicas : POL-2D-03
 
 
-Operaciones
+## Operaciones
 
 - crear
   - Parametros : datos_del_congreso
@@ -222,7 +236,7 @@ Operaciones
   - Desc       : Aumenta el contador de Asistencias a un Congreso.
 
 
-Consultas
+## Consultas
 
 - todos
   - Retorna : [Congreso]
@@ -252,9 +266,9 @@ Consultas
     - Staff, Organizador, Administrador : Consulta un Congreso.
 
 
-Integraciones
+## Integraciones
 
-Downstream
+### Downstream
 
 - Creado     (Congreso)
 - Editado    (Congreso)
@@ -266,7 +280,7 @@ Downstream
 - Asignado   (Congreso)
 - Soltado    (Congreso)
 
-Upstream
+### Upstream
 
 - 1A.OrganizadorEliminado
   - Contexto   : Control de Usuarios
@@ -279,7 +293,7 @@ Upstream
   - Ejecuta    : asistencia (Asistencia.congreso_id)
 
 
-KPIs
+## KPIs
 
 - Cuantos Alumnos se inscribieron a un Congreso.
 - Porcentaje de cupo ocupado por inscripciones.
