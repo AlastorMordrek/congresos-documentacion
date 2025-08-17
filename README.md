@@ -1,4 +1,5 @@
 # Documentacion del sistema de Congresos
+
 Este repositorio alberga toda la documentacion para el sistema de manejo de Congresos y Conferencias.
 Aqui podras encontrar documentacion, especificaciones, requerimientos, diagramas y modelos, etc... relevantes para entender y contribuir al proyecto.
 
@@ -93,6 +94,46 @@ El sistema proveera a los participantes las siguientes caracteristicas segun el 
 
 El sistema esta diseñado usando una mezcla de metodologias, encabezada por Diseño Dirigido por Dominios (DDD).
 La estructura de este repositorio de documentacion refleja enfoque y planteamiento basado en Dominios.
+
+El siguiente archivo que deberias leer para comprender el Dominio Principal del sistema es: [Dominio](docs/dominio/dominio.md)
+
+### Estructura del repositorio
+
+<div align="center">
+  <img src="imagenes/documentacion-estructura.jpg" alt="Representacion visual de la estructura de la documentacion" width="40%" height="40%" />
+</div>
+
+### Explicación de la estructura
+
+#### `/glosario`
+Contiene el archivo `glosario.md` con la definición de términos clave, conceptos técnicos y de negocio.  
+→ Sirve para mantener un **lenguaje ubicuo** dentro de la organización.
+
+#### `/diagramas`
+Carpeta para almacenar diagramas de alto nivel del sistema (ej. diagramas de contexto, flujos de eventos, dependencias).  
+→ Facilita la **visualización rápida** del sistema y sus relaciones.
+
+#### `/dominio`
+Contiene `dominio.md`, el archivo principal que describe el **dominio central** del sistema:
+
+- Su propósito.  
+- Sus conceptos fundamentales.  
+- Su relación con los subdominios.  
+
+→ Es el **punto de partida** para entender la arquitectura conceptual.
+
+#### `/subdominios`
+Carpeta que agrupa los **subdominios identificados** dentro del sistema.  
+Cada subdominio tiene:
+
+- Un archivo raíz (`subdominio-x.md`) que explica su alcance, propósito y límites.  
+- Una subcarpeta `/contextos` donde se documentan los **Bounded Contexts (contextos delimitados)** relacionados a ese subdominio.
+
+##### Dentro de cada `/contextos`:
+- Un archivo `contexto-x.md` que detalla el **BC**, incluyendo:  
+  - Sus **agregados**, **entidades** y **objetos de valor**.  
+  - Sus **eventos de dominio**, **comandos**, **consultas** y **operaciones**.  
+  - Sus relaciones con otros contextos (**upstream/downstream**).  
 
 El siguiente archivo que deberias leer para comprender el Dominio Principal del sistema es: [Dominio](docs/dominio/dominio.md)
 
