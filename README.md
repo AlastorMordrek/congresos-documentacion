@@ -89,7 +89,7 @@ El sistema proveera a los participantes las siguientes caracteristicas segun el 
  - Consultar sus asistencias.
 
 
-### Como leer esta documentacion.
+## Como leer esta documentacion.
 
 El sistema esta diseñado usando una mezcla de metodologias, encabezada por Diseño Dirigido por Dominios (DDD).
 La estructura de este repositorio de documentacion refleja enfoque y planteamiento basado en Dominios.
