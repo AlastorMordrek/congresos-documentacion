@@ -26,3 +26,62 @@ Los planeadores requieren las herramientas necesarias para definir las conferenc
 Los expositores requieren poder comunicar su imagen y semblanza para atraer a su posible audiencia asi como saber cuando y donde podran dar sus conferencias y a que tamaño de audiencia una vez llegada la fecha del congreso.
 
 Los estudiantes requieren poder saber que congresos estan proximos, cuales son sus fechas y ubicaciones, quienes seran los expositores, el cupo maximo, y tambien requieren poder inscribirse para garantizar su lugar en la audiencia.
+
+# Alcance
+
+Se implementara un sistema web que sera usado de manera y en etapas distintas dependiendo del rol que tenga el usuario en cuestion. A cada usuario segun su rol, se le presentara una faceta muy distinta del sistema donde la informacion presente y las posibles acciones a tomar cambiaran dinamicamente dependiendo del usuario y del momento dado.
+
+Se identifican los siguientes tipos de usuarios del sistema:
+ - Administrador
+ - Organizador
+ - Staff
+ - Alumno
+
+Tambien se identifican las siguientes areas de interes:
+Organizadores y Staff
+Congresos
+Conferencias
+Boletos
+Paso de lista (asistencias)
+
+El sistema proveera a los participantes las siguientes caracteristicas segun el area de interes.
+Para la administracion.
+Manejar congresos:
+Registrar, editar, autorizar, etc…
+Curar la lista publica de congresos proximos.
+Definir responsabilidades.
+Manejar staff general.
+Registrar, editar, autorizar, etc…
+Asignar organizadores a congresos.
+Manejar alumnos:
+Registrar, editar, autorizar, etc…
+Para los planeadores.
+Manejo de sus congresos asignados.
+Manejo de conferencias:
+Registro, edicion, asignar expositor, etc…
+Manejo de staff:
+Registro, edicion, autorizacion, asignacion de responsabilidades, etc…
+Manejo de boletos:
+Registrar, editar, autorizar, etc…
+Manejo de asistencias a conferencias:
+Registrar asistencia (validar boleto).
+Consultar audiencia.
+
+Para el staff.
+Editar su perfil.
+Seleccionar responsabilidades deseadas (o dicho de otra forma listar sus potenciales habilidades y conpetencias).
+Consultar congresos.
+Ofrecerse como voluntario a un congreso.
+Consultar sus congresos asignados y autorizados.
+Comprobar acceso al congreso.
+Validar boletos.
+
+Para los alumnos.
+Registrarse.
+Editar su perfil.
+Consultar los congresos proximos.
+Consultar conferencias.
+Inscribirse a congreso.
+Consultar sus boletos.
+Registrar su asistencia a una conferencia.
+Consultar sus asistencias.
