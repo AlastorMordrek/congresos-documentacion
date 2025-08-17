@@ -1,7 +1,13 @@
 # Subdominio 4 — Asistencias
-**Propósito:** Controlar y registrar el acceso efectivo de los asistentes a congresos y conferencias.
+### Propósito
+Controlar y registrar el acceso efectivo de los asistentes a congresos y conferencias.
 
-**Incluye:**
+### Incluye:
 - Validación de boletos en el punto de control.
 - Registro de asistencia a conferencias.
 - Generación de constancias de asistencia.
+
+
+## Contextos
+
+### 4G.- [Asistencia](contextos/asistencia-4g/asistencia-4g.md)
