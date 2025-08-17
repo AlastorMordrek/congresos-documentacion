@@ -17,7 +17,7 @@ Incluye la administración de usuarios con distintos roles, la gestión de event
 - Asignación de roles (Alumno, Organizador, Staff).
 - Configuración de privilegios y responsabilidades.
 
-### 2. Gestión de Eventos
+### 2. [Gestión de Eventos](../subdominios/gestion-de-eventos-2/gestion-de-eventos-2.md)
 **Propósito:** Administrar la creación, modificación, publicación y cancelación de congresos y sus conferencias asociadas.
 
 **Incluye:**
