@@ -6,7 +6,7 @@ Aqui podras encontrar documentacion, especificaciones, requerimientos, diagramas
   <img src="imagenes/tecnm-logo.jpg" alt="Logo del Tecnologico Nacional de Mexico" width="40%" height="40%" />
 </div>
 
-# Introduccion
+## Introduccion
 
 El ITT organiza periodicamente congresos donde expositores imparten conferencias para los alumnos del ITT (y otras instituciones), para que puedan obtener conocimiento valioso y actual de las industrias a las que pronto se integraran como parte de la fuerza laboral.
 
@@ -15,7 +15,7 @@ Organizar estos eventos tipo congreso requiere de mucha labor y colaboracion por
 Este documento asume que no hace falta convencer al lector de que la coordinacion de congresos es muy estresante para todos los involucrados. Gran parte del estres causado se debe a retrasos en la comunicacion, trabajo duplicado y error humano. Todos esos son problemas que podrian solucionarse mediante software y este documento detalla una propuesta de solucion.
 
 
-# Justificacion
+## Justificacion
 
 El ITT requiere de una plataforma de software que le facilite la coordinacion y participacion en eventos tipo congreso a todos los involucrados, desde quienes planean y representan estos eventos, hasta la potencial audiencia y en pequeña parte al publico general.
 
@@ -27,7 +27,7 @@ Los expositores requieren poder comunicar su imagen y semblanza para atraer a su
 
 Los estudiantes requieren poder saber que congresos estan proximos, cuales son sus fechas y ubicaciones, quienes seran los expositores, el cupo maximo, y tambien requieren poder inscribirse para garantizar su lugar en la audiencia.
 
-# Alcance
+## Alcance
 
 Se implementara un sistema web que sera usado de manera y en etapas distintas dependiendo del rol que tenga el usuario en cuestion. A cada usuario segun su rol, se le presentara una faceta muy distinta del sistema donde la informacion presente y las posibles acciones a tomar cambiaran dinamicamente dependiendo del usuario y del momento dado.
 
