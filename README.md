@@ -2,6 +2,8 @@
 Este repositorio alberga toda la documentacion para el sistema de manejo de Congresos y Conferencias.
 Aqui podras encontrar documentacion, especificaciones, requerimientos, diagramas y modelos, etc... relevantes para entender y contribuir al proyecto.
 
+![Diagram](imagenes/tecn-logo.jpg)
+
 # Introduccion
 
 El ITT organiza periodicamente congresos donde expositores imparten conferencias para los alumnos del ITT (y otras instituciones), para que puedan obtener conocimiento valioso y actual de las industrias a las que pronto se integraran como parte de la fuerza laboral.
