@@ -33,7 +33,7 @@ Incluye la administración de usuarios con distintos roles, la gestión de event
 - Emisión de boletos.
 - Cancelación de boletos bajo reglas definidas.
 
-### 4. Asistencias
+### 4. [Asistencias](../subdominios/asistencias-4/asistencias-4.md)
 **Propósito:** Controlar y registrar el acceso efectivo de los asistentes a congresos y conferencias.
 
 **Incluye:**
