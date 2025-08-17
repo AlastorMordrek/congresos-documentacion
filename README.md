@@ -38,23 +38,24 @@ Se identifican los siguientes tipos de usuarios del sistema:
  - Alumno
 
 Tambien se identifican las siguientes areas de interes:
-Organizadores y Staff
-Congresos
-Conferencias
-Boletos
-Paso de lista (asistencias)
+ - Organizadores y Staff
+ - Congresos
+ - Conferencias
+ - Boletos
+ - Paso de lista (asistencias)
 
 El sistema proveera a los participantes las siguientes caracteristicas segun el area de interes.
-Para la administracion.
-Manejar congresos:
-Registrar, editar, autorizar, etc…
-Curar la lista publica de congresos proximos.
-Definir responsabilidades.
-Manejar staff general.
-Registrar, editar, autorizar, etc…
-Asignar organizadores a congresos.
-Manejar alumnos:
-Registrar, editar, autorizar, etc…
+
+### Para la administracion.
+ - Manejar congresos:
+ - Registrar, editar, autorizar, etc…
+ - Curar la lista publica de congresos proximos.
+ - Definir responsabilidades.
+ - Manejar staff general.
+ - Registrar, editar, autorizar, etc…
+ - Asignar organizadores a congresos.
+ - Manejar alumnos:
+   - Registrar, editar, autorizar, etc…
 Para los planeadores.
 Manejo de sus congresos asignados.
 Manejo de conferencias:
