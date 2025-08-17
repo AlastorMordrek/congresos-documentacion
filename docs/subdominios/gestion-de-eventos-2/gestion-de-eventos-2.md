@@ -8,8 +8,8 @@
 
 ## Contextos
 
-### [Congreso](contextos/congreso-2d/congreso-2d.md)
+### 2D.- [Congreso](contextos/congreso-2d/congreso-2d.md)
 Proposito: Permitir a los Organizadores planear y gestionar eventos de Congresos.
 
-### [Conferencia](contextos/conferencia-2e/conferencia-2e.md)
+### 2E.- [Conferencia](contextos/conferencia-2e/conferencia-2e.md)
 Proposito: Permitir a los Organizadores planear y gestionar las Conferencias que sucederan en un Congreso.
