@@ -25,44 +25,57 @@ Gestionar los usuarios registrados en el sistema, editar sus roles, privilegios 
   - Bloquear/desbloquear usuarios.
   - Editar privilegios y responsabilidades de usuarios: Staff.
 
-
-Lenguaje ubicuo
+## Lenguaje ubicuo
 
 - Usuario:
 Persona registrada que tiene asignado un rol y privilegios/responsabilidades.
 
 - Rol:
 Propiedad de un Usuario que le asigna privilegios y responsabilidades.
-  - Administrador(1), Organizador(2), Staff(3), Alumno(4), Invitado(5).
+  - 1. Administrador
+  - 2. Organizador
+  - 3. Staff
+  - 4. Alumno
+  - 5. Invitado
 
 - Bloqueado:
 Estatus de un Usuario que le impide hacer uso del sistema.
 
 - Carrera:
 En que carrera esta estudiando un Alumno:
-  - ISC21: Ingeniaria en sistemas...
+  - ISC: Ingeniaria en sistemas computacionales
 
 - Autorizado:
 En Staff: determina si puede realizar acciones de Staff en general.
 
-
-Agregados
+## Agregados
 
 - Usuario:
-  id, email, rol, id_creador,
-  
-  telefono, email,
-
-  sal, hash,
-  
-  bloqueado_p,
-
-  nombre, apellido_paterno, apellido_materno, fecha_nacimiento
-
-  no_control, carrera, semestre, grupo, externo_p, curp, email_institucional
-
-  staff_autorizado_p, staff_responsabilidades,
-  staff_custodio_p, staff_alumnos_p, staff_inscripciones_p,
+  id
+  email
+  rol
+  id_creador
+  telefono
+  email
+  sal
+  hash
+  bloqueado_p
+  nombre
+  apellido_paterno
+  apellido_materno
+  fecha_nacimiento
+  no_control
+  carrera
+  semestre
+  grupo
+  externo_p
+  curp
+  email_institucional
+  staff_autorizado_p
+  staff_responsabilidades
+  staff_custodio_p
+  staff_alumnos_p
+  staff_inscripciones_p
 
 
 Politicas
