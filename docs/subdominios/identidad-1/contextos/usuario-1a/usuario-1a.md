@@ -51,31 +51,31 @@ En Staff: determina si puede realizar acciones de Staff en general.
 ## Agregados
 
 - Usuario:
-  id
-  email
-  rol
-  id_creador
-  telefono
-  email
-  sal
-  hash
-  bloqueado_p
-  nombre
-  apellido_paterno
-  apellido_materno
-  fecha_nacimiento
-  no_control
-  carrera
-  semestre
-  grupo
-  externo_p
-  curp
-  email_institucional
-  staff_autorizado_p
-  staff_responsabilidades
-  staff_custodio_p
-  staff_alumnos_p
-  staff_inscripciones_p
+  - id
+  - email
+  - rol
+  - id_creador
+  - telefono
+  - email
+  - sal
+  - hash
+  - bloqueado_p
+  - nombre
+  - apellido_paterno
+  - apellido_materno
+  - fecha_nacimiento
+  - no_control
+  - carrera
+  - semestre
+  - grupo
+  - externo_p
+  - curp
+  - email_institucional
+  - staff_autorizado_p
+  - staff_responsabilidades
+  - staff_custodio_p
+  - staff_alumnos_p
+  - staff_inscripciones_p
 
 
 Politicas
