@@ -2,7 +2,7 @@
 Este repositorio alberga toda la documentacion para el sistema de manejo de Congresos y Conferencias.
 Aqui podras encontrar documentacion, especificaciones, requerimientos, diagramas y modelos, etc... relevantes para entender y contribuir al proyecto.
 
-![logo](imagenes/tecn-logo.jpg)
+![logo](imagenes/tecnm-logo.jpg)
 
 # Introduccion
 
