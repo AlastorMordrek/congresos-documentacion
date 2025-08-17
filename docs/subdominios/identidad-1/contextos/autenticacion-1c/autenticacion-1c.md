@@ -29,7 +29,6 @@ Persona registrada que tiene asignado un rol y privilegios/responsabilidades.
 
 - Rol:
 Propiedad de un Usuario que le asigna privilegios y responsabilidades.
-  - Administrador(1), Organizador(2), Staff(3), Alumno(4), Invitado(5).
 
 - Bloqueado:
 Usuario que no tiene permitido entrar al sistema.
