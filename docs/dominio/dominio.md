@@ -25,7 +25,7 @@ Incluye la administración de usuarios con distintos roles, la gestión de event
 - Alta y gestión de conferencias (ponente, semblanza, horario).
 - Control de estado (Borrador, Publicado, Cancelado).
 
-### 3. Boletos
+### 3. [Boletos](../subdominios/boletos-3/boletos-3.md)
 **Propósito:** Emitir, gestionar y cancelar boletos que representan la inscripción de un alumno a un congreso.
 
 **Incluye:**
