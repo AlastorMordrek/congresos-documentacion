@@ -48,8 +48,17 @@ Estatus de un Usuario que le impide hacer uso del sistema.
 En que carrera esta estudiando un Alumno:
   - ISC: Ingeniaria en sistemas computacionales
 
+- Privilegio:
+Propiedad de un Usuario (usualmente Staff) que le otorga acceso a cierta funcion.
+Algunas funciones requieren que el Usuario ejecutor tenga otorgado el privilegio explicito.
+
 - Autorizado:
 En Staff: determina si puede realizar acciones de Staff en general.
+Tambien aplica a los Privilegios especificos.
+  - staff_custodio_p: custodia el acceso a Congresos y Conferencias por parte de los Alumnos, validando sys Boletos.
+  - staff_alumnos_p: puede registrar/editar/bloquear Alumnos.
+  - staff_inscripciones_p: puede inscribir (generar Boleto) Alumnos a Congresos y tambien cancelar sus Boletos.
+  - staff_acredita_p: puede acreditar a un Alumno, constando que participo en un Congreso, lo suficiente como para cumplir los requisitos establecidos por el Organizador/Responsable, ganandose asi un credito complementario.
 
 
 ## Agregados
@@ -81,6 +90,7 @@ En Staff: determina si puede realizar acciones de Staff en general.
   - staff_custodio_p
   - staff_alumnos_p
   - staff_inscripciones_p
+  - staff_acredita_p
 
 
 ## Politicas
