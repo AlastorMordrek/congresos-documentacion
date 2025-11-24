@@ -57,6 +57,10 @@ Un Congreso que aun no ha sucedido, es decir: su fecha de inicio no ha llegado.
 - Congreso: Concluido:
 Congreso que ya sucedio, es decir: su fecha de terminacion ya paso.
 
+- Congreso: Gratuito:
+Congreso que no tiene costo.
+Cuando un congreso no es gratuito, los Alumnos deberan realizar su pago (externo al sistema) para que el personal autorizado marque su BOLETO como PAGADO.
+
 - Media:
 Fotos o videos que que proveen ilustracion adicional al Congreso.
 
@@ -98,6 +102,19 @@ Un Boleto que ya no puede ser usado porque fue dado de baja por el Alumno o un S
 
 - Boleto: Restaurado:
 Boleto que fue reactivado y ya no esta Cancelado, por lo que puede usarse.
+
+- Boleto: Pagado/No-Pagado:
+Boleto que fue que fue marcado como PAGADO/NO_PAGADO por el personal autorizado.
+Si el CONGRESO no es GRATUITO, solo los BOLETOS marcados como PAGADOS podran ser usados para asistir al evento.
+
+- Boleto: Excedente:
+Boleto que fue registrado cuando el CUPO total del CONGRESO ya habia sido llenado.
+Estos BOLETOS no son necesariamente invalidos, es mas un dato informativo.
+Se puede usar este dato para auditar quienes registraron BOLETOS EXCEDENTES al CONGRESO.
+
+- Boleto: Constador de Pago:
+Usuario del personal autorizado (ej: ORGANIZADOR, STAFF) que realizo la ultima modificacion al estatus de PAGADO de un BOLETO.
+Esto permite auditar quien autorizo o desautorizo que BOLETO.
 
 - Asistencia:
 Registro que consta la entrada de un Alumno a un Congreso a travez de su Boleto.
